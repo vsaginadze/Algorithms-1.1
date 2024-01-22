@@ -34,9 +34,15 @@
   - [ ] Design Linked List
 
 * Two Pointer Technique
-  - [ ]Two-Pointer in Linked List
-  - [ ]Linked List Cycle
-  - [ ]Linked List Cycle II
-  - [ ]Intersection of Two Linked Lists
-  - [ ]Remove Nth Node From End of List
-  - [ ]Summary - Two-Pointer in Linked List
+  - [ ] Two-Pointer in Linked List
+  - [ ] Linked List Cycle
+  - [ ] Linked List Cycle II
+  - [ ] Intersection of Two Linked Lists
+  - [ ] Remove Nth Node From End of List
+  - [ ] Summary - Two-Pointer in Linked List
+
+* Double Linked List
+  - [ ] Introduction - Doubly Linked List
+  - [ ] Add Operation - Doubly Linked List
+  - [ ] Delete Operation - Doubly Linked List
+  - [ ] Design Linked List
