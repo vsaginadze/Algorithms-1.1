@@ -20,10 +20,10 @@
     - [ ] Find Minimum in Rotated Sorted Array
 
 * Template III
-    - [ ] Binary Search Template III
-    - [ ] Search for a Range
-    - [ ] Find K Closest Elements
-    - [ ] Find Peak Element
+  - [ ] Binary Search Template III
+  - [ ] Search for a Range
+  - [ ] Find K Closest Elements
+  - [ ] Find Peak Element
 
 ### Linked List
 
