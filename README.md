@@ -11,3 +11,15 @@
     - [ ] Guess Number Higher or Lower
     - [ ] Sqrt(x)
     - [ ] Search in a rotated sorted array
+
+* Template II
+    - [ ] Binary Search Template II
+    - [ ] First Bad Version
+    - [ ] Find Peak Element
+    - [ ] Find Minimum in Rotated Sorted Array
+
+* Template III
+    - [ ] Binary Search Template III
+    - [ ] Search for a Range
+    - [ ] Find K Closest Elements
+    - [ ] Find Peak Element
