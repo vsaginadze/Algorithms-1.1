@@ -46,3 +46,11 @@
   - [ ] Add Operation - Doubly Linked List
   - [ ] Delete Operation - Doubly Linked List
   - [ ] Design Linked List
+
+* Conclusion
+  - [ ] Summary - Linked List
+  - [ ] Merge Two Sorted Lists
+  - [ ] Add Two Numbers
+  - [ ] Flatten a Multilevel Doubly Linked List
+  - [ ] Copy List with Random Pointer
+  - [ ] Rotate List
