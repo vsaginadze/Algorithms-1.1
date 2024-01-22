@@ -1,6 +1,7 @@
 # Algorithms-1.1
 
 ### Binary Search
+
 * Background
     - [ ] How does it work?
     - [ ] Binary Search
@@ -23,3 +24,11 @@
     - [ ] Search for a Range
     - [ ] Find K Closest Elements
     - [ ] Find Peak Element
+
+### Linked List
+
+* Singly Linked List
+  - [ ] Introduction - Singly Linked List
+  - [ ] Add Operation - Singly Linked List
+  - [ ] Delete Operation - Singly Linked List
+  - [ ] Design Linked List
