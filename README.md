@@ -54,3 +54,33 @@
   - [ ] Flatten a Multilevel Doubly Linked List
   - [ ] Copy List with Random Pointer
   - [ ] Rotate List
+
+### Sorting
+
+* Introduction to Sorting
+  - [ ] Fundamentals of Sorting
+
+* Comparison Based Sorts
+  - [ ] Comparison Based Sort
+  - [ ] Selection Sort
+  - [ ] Sort Colors
+  - [ ] Bubble Sort
+  - [ ] Height Checker
+  - [ ] Insertion Sort
+  - [ ] Insertion Sort List
+  - [ ] Heap Sort
+  - [ ] Sort an Array
+  - [ ] Kth Largest Element in an Array
+
+* Non-comparison Based Sorts
+  - [ ] Counting Sort
+  - [ ] Sort Colors
+  - [ ] Minimum Absolute Difference
+  - [ ] Radix Sort
+  - [ ] Query Kth Smallest Trimmed Number
+  - [ ] Maximum Gap
+  - [ ] Bucket Sort
+  - [ ] Top K Frequent Elements
+
+* Summary and Conclusion
+  - [ ] Sorting Algorithm Summary
