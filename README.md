@@ -28,9 +28,9 @@
 ### Linked List
 
 * Singly Linked List
-  - [ ] Introduction - Singly Linked List
-  - [ ] Add Operation - Singly Linked List
-  - [ ] Delete Operation - Singly Linked List
+  - [ ] Introduction
+  - [ ] Add Operation
+  - [ ] Delete Operation
   - [ ] Design Linked List
 
 * Two Pointer Technique
@@ -42,9 +42,9 @@
   - [ ] Summary - Two-Pointer in Linked List
 
 * Double Linked List
-  - [ ] Introduction - Doubly Linked List
-  - [ ] Add Operation - Doubly Linked List
-  - [ ] Delete Operation - Doubly Linked List
+  - [ ] Introduction
+  - [ ] Add Operation
+  - [ ] Delete Operation
   - [ ] Design Linked List
 
 * Conclusion
@@ -84,3 +84,27 @@
 
 * Summary and Conclusion
   - [ ] Sorting Algorithm Summary
+
+### Binary Tree
+
+* Traverse A Tree
+  - [ ] Traverse a Tree - Introduction
+  - [ ] Binary Tree Preorder Traversal
+  - [ ] Binary Tree Inorder Traversal
+  - [ ] Binary Tree Postorder Traversal
+  - [ ] Level-order Traversal - Introduction
+  - [ ] Binary Tree Level Order Traversal
+
+* Solve Problems Recursively
+  - [ ] Solve Tree Problems Recursively
+  - [ ] Maximum Depth of Binary Tree
+  - [ ] Symmetric Tree
+  - [ ] Path Sum
+
+* Conclusion
+  - [ ] Construct Binary Tree from Inorder and Postorder Traversal
+  - [ ] Construct Binary Tree from Preorder and Inorder Traversal
+  - [ ] Populating Next Right Pointers in Each Node
+  - [ ] Populating Next Right Pointers in Each Node II
+  - [ ] Lowest Common Ancestor of a Binary Tree
+  - [ ] Serialize and Deserialize Binary Tree
