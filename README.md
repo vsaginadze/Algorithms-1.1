@@ -14,10 +14,10 @@
     - [x] Search in a rotated sorted array
 
 * Template II
-    - [ ] Binary Search Template II
-    - [ ] First Bad Version
-    - [ ] Find Peak Element
-    - [ ] Find Minimum in Rotated Sorted Array
+    - [x] Binary Search Template II
+    - [x] First Bad Version
+    - [x] Find Peak Element
+    - [x] Find Minimum in Rotated Sorted Array
 
 * Template III
   - [ ] Binary Search Template III
