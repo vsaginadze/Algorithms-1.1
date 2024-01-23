@@ -20,7 +20,7 @@
     - [x] Find Minimum in Rotated Sorted Array
 
 * Template III
-  - [ ] Binary Search Template III
+  - [x] Binary Search Template III
   - [ ] Search for a Range
   - [ ] Find K Closest Elements
   - [ ] Find Peak Element
