@@ -15,7 +15,7 @@ def searchLeft(nums, target, l, r):
     return -1
         
 def searchRight(nums, target, l, r):
-    if nums[l] == target:
+    if nums[r] == target:
         return l
     
     while l + 1 < r:
@@ -42,6 +42,7 @@ def searchRange(nums, target):
         if nums[mid] == target:
             strt_idx = searchLeft(nums, target, left, mid)
             end_idx = searchRight(nums, target, mid, right)
+            print("idxs", end=" ")
             print(strt_idx, end_idx)
             break
         elif nums[mid] < target:
@@ -52,4 +53,4 @@ def searchRange(nums, target):
     print("left", left)
     print("right", right)
 
-searchRange([3, 4, 4, 5, 5, 5, 5, 6, 6, 6, 7], 5)
+searchRange([3, 4, 4, 5, 5, 5, 5, 6, 6, 6, 7], 6)
