@@ -21,7 +21,7 @@
 
 * Template III
   - [x] Binary Search Template III
-  - [ ] Search for a Range
+  - [x] Search for a Range
   - [ ] Find K Closest Elements
   - [ ] Find Peak Element
 

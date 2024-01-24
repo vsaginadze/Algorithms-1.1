@@ -1,3 +1,4 @@
+# This is not a real solution
 def searchLeft(nums, target, l, r):
     if nums[l] == target:
         return l
@@ -40,8 +41,6 @@ def searchRight(nums, target, l, r):
 def searchRange(nums, target):
     if len(nums) == 0:
         return (-1, -1)
-    # if len(nums) == 2:
-    #     return (0, 1)
     
     strt_idx, end_idx = (-1, -1)
     left, right = 0, len(nums)-1
