@@ -1,45 +1,38 @@
 from typing import List
 
 class Solution:
+    def findBoundaries(self, arr: List[int], closest_el: int) -> (int, int):
+        pass
+
     def findClosestElements(self, arr: List[int], k: int, x: int) -> List[int]:
         if x not in arr:
-            if x > arr[-1]:
-                return arr[len(arr)-4:]
-            if x < arr[0]:
-                return arr[:k]
+            if x > arr[-1]:  return arr[len(arr)-k:]
+            if x < arr[0]: return arr[:k]
         
-        closest_el = -1
         left, right = 0, len(arr)-1
-
         while left+1 < right:
             mid = (left+right) // 2
             if arr[mid] == x:
-                closest_el = mid
-                break
-            elif abs(arr[mid] - x) == abs(arr[right] - x):
-                if left < right:
-                    right = mid
-                else:
-                    left = mid
-            elif abs(arr[mid] - x) < abs(arr[right] - x):
+                l, r = self.findBoundaries(self, arr, mid)
+                return arr[l:r]
+            elif arr[mid] > x:
                 right = mid
             else:
                 left = mid
         
-        if closest_el == -1:
-            if abs(left - x) < abs(right - x):
-                closest_el = left
-            elif abs(left - x) == abs(right - x):
-                closest_el = min(left, right)
-            else:
-                closest_el = right
+        if abs(left - x) == abs(right - x):
+            closest_el = min(left, right)
+        else:
+            closest_el = min(left, right, key=lambda num: (abs(num - x), num))
         
+        l, r = self.findBoundaries(arr, closest_el)
+        return arr[l:r]
 
-
-        print(left,right, closest_el)
-
-arr = [0,1,2,3,24,125,126]
+arr = [0,1,24,70,100,150]
 k = 3
 x = 70
+
 sol = Solution()
-sol.findClosestElements(arr, k, x)
+closestEls = sol.findClosestElements(arr, k, x)
+
+print(closestEls)
