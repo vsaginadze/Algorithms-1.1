@@ -25,6 +25,11 @@
   - [x] Find K Closest Elements
   - [x] Find Peak Element
 
+* Conclusion
+  - [ ] Pow(x, n)
+  - [ ] Valid Perfect Square
+  - [ ] Find Smallest Letter Greater Than Target
+
 ### Linked List
 
 * Singly Linked List
