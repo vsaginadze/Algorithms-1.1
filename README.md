@@ -1,6 +1,6 @@
 # Algorithms-1.1
 
-### - [ ] Binary Search
+### Binary Search
 
 * Background
     - [x] How does it work?
