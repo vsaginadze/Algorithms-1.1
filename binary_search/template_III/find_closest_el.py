@@ -43,25 +43,3 @@ k = 3
 x = 70
 sol = Solution()
 sol.findClosestElements(arr, k, x)
-# expected answer -> [24, 125, 126]
-'''
-[0,1,2,3,24,125,126]
-
-5 -> num of els
-3 -> item
-res -> [0, 2, 3, 4, 5]
-
-# pre-processing
-if not item in arr:
-    if item > arr[len(arr)-1]:
-        return arr[len(arr)-k:]
-    if item < arr[0]:
-        return arr[:k]
-
-# binary search
-finds the item 3
-    leftSearch = 2
-    rightSearch = 4
-
-
-'''
