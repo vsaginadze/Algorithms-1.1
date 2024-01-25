@@ -23,7 +23,7 @@
   - [x] Binary Search Template III
   - [x] Search for a Range
   - [x] Find K Closest Elements
-  - [ ] Find Peak Element
+  - [x] Find Peak Element
 
 ### Linked List
 
