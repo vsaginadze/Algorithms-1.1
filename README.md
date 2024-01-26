@@ -27,7 +27,7 @@
 
 * Conclusion
   - [x] Pow(x, n)
-  - [ ] Valid Perfect Square
+  - [x] Valid Perfect Square
   - [ ] Find Smallest Letter Greater Than Target
 
 ### Linked List
