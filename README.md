@@ -35,7 +35,7 @@
 * Singly Linked List
   - [x] Introduction
   - [x] Add Operation
-  - [ ] Delete Operation
+  - [x] Delete Operation
   - [ ] Design Linked List
 
 * Two Pointer Technique
