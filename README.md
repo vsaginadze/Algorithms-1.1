@@ -33,7 +33,7 @@
 ### Linked List
 
 * Singly Linked List
-  - [ ] Introduction
+  - [x] Introduction
   - [ ] Add Operation
   - [ ] Delete Operation
   - [ ] Design Linked List
