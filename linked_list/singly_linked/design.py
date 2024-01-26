@@ -10,7 +10,7 @@ class MyLinkedList:
     def display(self):
         current_node = self.head
 
-        while current_node.next is not None:
+        while current_node.next:
             print(current_node.val, end=" -> ")
             current_node = current_node.next
         
@@ -19,7 +19,7 @@ class MyLinkedList:
     def get(self, index: int) -> int:
         idx, current_node = 0, self.head
         
-        while current_node is not None:
+        while current_node:
             if idx == index:
                 return current_node.val
             current_node = current_node.next
@@ -33,45 +33,49 @@ class MyLinkedList:
 
     def addAtTail(self, val: int) -> None:
         node = self.Node(val)
-        if self.head is None:
-            self.head = node
-        else:
+        if self.head:
             current_node = self.head
 
-            while current_node.next is not None:
+            while current_node.next:
                 current_node = current_node.next
         
             current_node.next = node
+        else:
+            self.head = node
 
     def addAtIndex(self, index: int, val: int) -> None:
-        idx, current_node = 0, self.head
+        if not index >= 0: return
+
+        idx, current_node = 1, self.head
         node = self.Node(val, None)
-        if idx == index:
+        if index:
+            while current_node:
+                prev_node = current_node
+                current_node = current_node.next
+
+                if idx == index:
+                    prev_node.next = node
+                    node.next = current_node
+                    break
+
+                idx += 1
+        else:
             node.next = self.head
             self.head = node
-            return
-        
-        idx = 1
-        while current_node is not None:
-            prev_node = current_node
-            current_node = current_node.next
-            if idx == index:
-                prev_node.next = node
-                node.next = current_node
-                break
-            idx += 1
 
     def deleteAtIndex(self, index: int) -> None:
-        idx, current_node = 0, self.head
-        if idx == index:
+        if not index >= 0: return
+
+        idx, current_node = 1, self.head
+        if index:
+            while current_node.next:
+                prev_node = current_node
+                current_node = current_node.next
+
+                if idx == index:
+                    prev_node.next = current_node.next
+                    return
+                
+                idx += 1
+        else:
             self.head = self.head.next
-            return
-        
-        idx = 1
-        while current_node.next is not None:
-            prev_node = current_node
-            current_node = current_node.next
-            if idx == index:
-                prev_node.next = current_node.next
-                break
-            idx += 1
