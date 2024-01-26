@@ -7,6 +7,15 @@ class MyLinkedList:
     def __init__(self):
         self.head = None
 
+    def display(self):
+        current_node = self.head
+
+        while current_node.next is not None:
+            print(current_node.val, end=" -> ")
+            current_node = current_node.next
+        
+        print(current_node.val)
+
     def get(self, index: int) -> int:
         idx, current_node = 0, self.head
         
@@ -29,7 +38,7 @@ class MyLinkedList:
         else:
             current_node = self.head
 
-            while current_node is not None:
+            while current_node.next is not None:
                 current_node = current_node.next
         
             current_node.next = node
@@ -37,7 +46,7 @@ class MyLinkedList:
     def addAtIndex(self, index: int, val: int) -> None:
         idx, current_node = 0, self.head
         node = self.Node(val, None)
-        if idx == 0:
+        if idx == index:
             node.next = self.head
             self.head = node
             return
@@ -50,18 +59,19 @@ class MyLinkedList:
                 prev_node.next = node
                 node.next = current_node
                 break
+            idx += 1
 
     def deleteAtIndex(self, index: int) -> None:
         idx, current_node = 0, self.head
-        if idx == 0:
+        if idx == index:
             self.head = self.head.next
             return
         
         idx = 1
-        while current_node is not None:
+        while current_node.next is not None:
             prev_node = current_node
             current_node = current_node.next
             if idx == index:
                 prev_node.next = current_node.next
                 break
-
+            idx += 1
