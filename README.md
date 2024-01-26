@@ -36,7 +36,7 @@
   - [x] Introduction
   - [x] Add Operation
   - [x] Delete Operation
-  - [ ] Design Linked List
+  - [x] Design Linked List
 
 * Two Pointer Technique
   - [ ] Two-Pointer in Linked List
