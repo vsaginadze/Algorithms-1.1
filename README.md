@@ -26,7 +26,7 @@
   - [x] Find Peak Element
 
 * Conclusion
-  - [ ] Pow(x, n)
+  - [x] Pow(x, n)
   - [ ] Valid Perfect Square
   - [ ] Find Smallest Letter Greater Than Target
 
