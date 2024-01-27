@@ -23,12 +23,12 @@ class Solution:
         
         return None
 
-tail = ListNode(4)
-n3 = ListNode(0, tail)
-n2 = ListNode(2, n3)
-head = ListNode(3, n2)
+# tail = ListNode(4)
+# n3 = ListNode(0, tail)
+# n2 = ListNode(2, n3)
+# head = ListNode(3, n2)
 
-tail.next = n2
+# tail.next = n2
 
-sol = Solution()
-print(sol.detectCycle(head))
+# sol = Solution()
+# print(sol.detectCycle(head))
