@@ -39,7 +39,7 @@
   - [x] Design Linked List
 
 * Two Pointer Technique
-  - [ ] Two-Pointer in Linked List
+  - [x] Two-Pointer in Linked List
   - [ ] Linked List Cycle
   - [ ] Linked List Cycle II
   - [ ] Intersection of Two Linked Lists
