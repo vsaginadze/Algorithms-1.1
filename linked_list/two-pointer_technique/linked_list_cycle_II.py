@@ -8,18 +8,18 @@ class ListNode:
 class Solution:
     def detectCycle(self, head: Optional[ListNode]) -> Optional[ListNode]:
         if head and head.next:
-            idx = 0
+            if head.next == head: return head
+            if head.next.next == head 
             slow = head
-            fast = slow.next
+            fast = slow
             
             while slow is not fast:
                 if fast is None or fast.next is None: return None
                 
-                idx += 1
                 fast = fast.next.next
                 slow = slow.next
             
-            return f"tail connect to node index {idx}"
+            return fast.next
         
         return None
 
