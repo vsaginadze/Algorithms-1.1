@@ -8,27 +8,29 @@ class ListNode:
 class Solution:
     def detectCycle(self, head: Optional[ListNode]) -> Optional[ListNode]:
         if head and head.next:
-            if head.next == head: return head
-            if head.next.next == head 
-            slow = head
-            fast = slow
-    
+            slow = head.next
+            fast = head.next.next
+            
             while slow is not fast:
-                if fast is None or fast.next is None: return None
-                
                 fast = fast.next.next
                 slow = slow.next
+
+            slow = head
             
-            return slow
-        
-        return None
+            while slow is not fast:
+                fast = fast.next
+                slow = slow.next
+            
+            print(slow.val)
 
-# tail = ListNode(4)
-# n3 = ListNode(0, tail)
-# n2 = ListNode(2, n3)
-# head = ListNode(3, n2)
 
-# tail.next = n2
+tail = ListNode(4)
+n3 = ListNode(0, tail)
+n2 = ListNode(2, n3)
+n1 = ListNode(1, n2)
+head = ListNode(3, n1)
 
-# sol = Solution()
-# print(sol.detectCycle(head))
+tail.next = n2
+
+sol = Solution()
+sol.detectCycle(head)
