@@ -43,7 +43,7 @@
   - [x] Linked List Cycle
   - [x] Linked List Cycle II
   - [x] Intersection of Two Linked Lists
-  - [ ] Remove Nth Node From End of List
+  - [x] Remove Nth Node From End of List
   - [ ] Summary - Two-Pointer in Linked List
 
 * Double Linked List
