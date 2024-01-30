@@ -35,16 +35,5 @@ class Solution:
         
         return a.next
 
-def display(head):
-        if head is None: 
-            print("None")
-            return
-        
-        current = head
-        while current.next:
-            print(current.val, end=" -> ")
-            current = current.next
-        print(current.val)
-
 
 
