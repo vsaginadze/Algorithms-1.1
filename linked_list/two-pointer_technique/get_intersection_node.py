@@ -16,7 +16,7 @@ class Solution:
 
         return size
 
-    def set_pointer_forward(self, headL, diff):
+    def move_pointer_by(self, diff, headL):
         cnt = 0
         node = headL
         
@@ -34,11 +34,10 @@ class Solution:
         diff = abs(sizeA - sizeB)
 
         if sizeA > sizeB:
-            a = self.set_pointer_forward(a, diff)
+            a = self.move_pointer_by(diff, a)
         else:
-            b = self.set_pointer_forward(b, diff)
+            b = self.move_pointer_by(diff, b)
         
         while a and b:
             if a is b: return a
-            a = a.next
-            b = b.next
+            a, b = a.next, b.next
