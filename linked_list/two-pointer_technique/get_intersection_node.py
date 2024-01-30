@@ -42,20 +42,3 @@ class Solution:
             if a is b: return a
             a = a.next
             b = b.next
-        
-        
-                
-a1 = ListNode(1)
-headA = ListNode(4, a1)
-
-b2 = ListNode(1)
-b1 = ListNode(6, b2)
-headB = ListNode(5, b1)
-
-rest = ListNode(8, ListNode(4, ListNode(5)))
-
-a1.next = rest
-b2.next = rest
-
-sol = Solution()
-print(sol.getIntersectionNode(headA, headB))
