@@ -6,88 +6,56 @@ class ListNode:
         self.next = next
 
 class Solution:
+    def __len__(self, headL):
+        node = headL
+        size = 0
+
+        while node:
+            node = node.next
+            size += 1
+
+        return size
+
+    def set_pointer_forward(self, headL, diff):
+        cnt = 0
+        node = headL
+        
+        while node:
+            if cnt == diff: break
+            node = node.next
+            cnt += 1
+        
+        return node
+
     def getIntersectionNode(self, headA: ListNode, headB: ListNode) -> Optional[ListNode]:
-        a = headA
-        b = headB
-        len_a = 0
-        len_b = 0
+        a, b = headA, headB
+        sizeA = self.__len__(a)
+        sizeB = self.__len__(b)
+        diff = abs(sizeA - sizeB)
 
-        p = a
-        while p:
-            len_a += 1
-            p = p.next
-
-        p = b
-        while p:
-            len_b += 1
-            p = p.next
-        
-        if len_a > len_b:
-            skip = len_a - len_b
-
-            a = headA
-            cnt = 0
-            while a:
-                if cnt == skip:
-                    break
-                a = a.next
-                cnt += 1
-
-            b = headB
-
-            while a.val != b.val:
-                a = a.next
-                b = b.next
-            
-            if a.next == None and b.next == None:
-                return None
-            else:
-                return a.val
-        
+        if sizeA > sizeB:
+            a = self.set_pointer_forward(a, diff)
         else:
-            skip = len_b - len_a
-
-            b = headB
-            cnt = 0
-            while b:
-                if cnt == skip:
-                    break
-                b = b.next
-                cnt += 1
-            
-            a = headA
-
-            while a.next != b.next:
-                a = a.next
-                b = b.next
-            
-            if a.next == None and b.next == None:
-                return None
-            else:
-                return a.val
+            b = self.set_pointer_forward(b, diff)
+        
+        while a and b:
+            if a is b: return a
+            a = a.next
+            b = b.next
+        
+        
                 
+a1 = ListNode(1)
+headA = ListNode(4, a1)
 
-def list_to_linked_list(lst):
-    # Initialize the head of the linked list
-    head = None
-    # Iterate through the list in reverse order to efficiently build the linked list
-    for val in reversed(lst):
-        # Create a new node with the current value and link it to the current head
-        head = ListNode(val, head)
-    return head
+b2 = ListNode(1)
+b1 = ListNode(6, b2)
+headB = ListNode(5, b1)
 
-def display(head):
-    current = head
-    while current is not None:
-        print(current.val, end=" -> ")
-        current = current.next
-    print("None")
+rest = ListNode(8, ListNode(4, ListNode(5)))
 
-a = [4,4,5]
-b = [5,6,1,12,4,5]
-
-linked_a = list_to_linked_list(a)
-linked_b = list_to_linked_list(b)
+a1.next = rest
+b2.next = rest
 
 sol = Solution()
-print(sol.getIntersectionNode(linked_a, linked_b))
+print(sol.getIntersectionNode(headA, headB))
