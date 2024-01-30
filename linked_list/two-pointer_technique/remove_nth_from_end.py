@@ -17,23 +17,28 @@ class Solution:
         return size
 
     def removeNthFromEnd(self, head: Optional[ListNode], n: int) -> Optional[ListNode]:
-        a = ListNode(None, head)
-        length = self.__len__(a)
+        pass
+        
+        # HINT: Maintain two pointers and update one with a delay of n steps.
 
-        if n == 1 == length: return None 
+    # def removeNthFromEnd(self, head: Optional[ListNode], n: int) -> Optional[ListNode]:
+    #     a = ListNode(None, head)
+    #     length = self.__len__(a)
+
+    #     if n == 1 == length: return None 
         
-        removeAt = length - n
-        if removeAt > 0:
-            cnt = 1
-            node = a
-            while node:
-                if cnt == removeAt:
-                    node.next = node.next.next
-                    break
-                node = node.next
-                cnt += 1
+    #     removeAt = length - n
+    #     if removeAt > 0:
+    #         cnt = 1
+    #         node = a
+    #         while node:
+    #             if cnt == removeAt:
+    #                 node.next = node.next.next
+    #                 break
+    #             node = node.next
+    #             cnt += 1
         
-        return a.next
+    #     return a.next
 
 
 
