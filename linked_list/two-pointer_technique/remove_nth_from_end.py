@@ -46,14 +46,5 @@ def display(head):
             current = current.next
         print(current.val)
 
-# lst = ListNode(5, ListNode(6, ListNode(7, ListNode(8))))
-lst = ListNode(1, ListNode(2))
-n = 2
-display(lst)
-
-sol = Solution()
-head = sol.removeNthFromEnd(lst, n)
-
-display(head)
 
 
