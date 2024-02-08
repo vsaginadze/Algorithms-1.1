@@ -47,7 +47,7 @@
   - [x] Summary - Two-Pointer in Linked List
 
 * Classic Problems
-  - [ ] Reverse Linked List
+  - [x] Reverse Linked List
 
 * Double Linked List
   - [ ] Introduction
