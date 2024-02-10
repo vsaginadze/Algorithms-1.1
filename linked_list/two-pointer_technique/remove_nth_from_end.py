@@ -35,12 +35,3 @@ class Solution:
             return head.next
         
         return None
-
-# n2 = ListNode(3, ListNode(4, ListNode(6, ListNode(5))))
-n1 = ListNode(2, None)
-head = ListNode(1, n1)
-
-head.display()
-
-sol = Solution()
-head = sol.removeNthFromEnd(head, 3).display()
