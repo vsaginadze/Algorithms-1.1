@@ -48,6 +48,10 @@
 
 * Classic Problems
   - [x] Reverse Linked List
+  - [x] Remove Linked List Elements
+  - [ ] Odd Even Linked List
+  - [ ] Palindrome Linked List
+  - [ ] Summary - Linked List Classic Problems
 
 * Double Linked List
   - [ ] Introduction
