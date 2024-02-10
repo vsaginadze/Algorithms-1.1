@@ -15,16 +15,3 @@ class Solution:
             return head
         
         return None
-
-
-# n3 = ListNode(7, None)
-# n2 = ListNode(15, n3)
-n1 = ListNode(6, None)
-head = ListNode(23, None)
-
-head.display()
-
-sol = Solution()
-
-head = sol.reverseList(head)
-head.display()
