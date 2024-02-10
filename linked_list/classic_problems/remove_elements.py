@@ -1,5 +1,5 @@
 from typing import Optional
-from linked_list import LinkedList, ListNode
+from linked_list import ListNode
 
 class Solution:
     def removeElements(self, head: Optional[ListNode], val: int) -> Optional[ListNode]:
