@@ -4,36 +4,43 @@ class ListNode:
     def __init__(self, val, next=None):
         self.val = val
         self.next = next
+    
+    def display(self):
+        current_node = self
+
+        while current_node.next:
+            print(current_node.val, end=" -> ")
+            current_node = current_node.next
+        
+        print(current_node.val)
 
 class Solution:
-    def __len__(self, headL):
-        node = headL
-        size = 0
-
-        while node:
-            node = node.next
-            size += 1
-
-        return size
-
     def removeNthFromEnd(self, head: Optional[ListNode], n: int) -> Optional[ListNode]:
-        a = ListNode(None, head)
-        length = self.__len__(a)
+        if n > 0:
+            head = ListNode(None, head)
+            slow = fast = head
 
-        if n == 1 == length: return None 
+            for i in range(n):
+                if fast and fast.next: 
+                    fast = fast.next
+                else:
+                    return None
+
+            while fast.next:
+                fast = fast.next
+                slow = slow.next
+
+            slow.next = slow.next.next
+
+            return head.next
         
-        removeAt = length - n
-        if removeAt > 0:
-            cnt = 1
-            node = a
-            while node:
-                if cnt == removeAt:
-                    node.next = node.next.next
-                    break
-                node = node.next
-                cnt += 1
-        
-        return a.next
+        return None
 
+# n2 = ListNode(3, ListNode(4, ListNode(6, ListNode(5))))
+n1 = ListNode(2, None)
+head = ListNode(1, n1)
 
+head.display()
 
+sol = Solution()
+head = sol.removeNthFromEnd(head, 3).display()
