@@ -3,26 +3,27 @@ from linked_list import LinkedList, ListNode
 
 class Solution:
     def removeElements(self, head: Optional[ListNode], val: int) -> Optional[ListNode]:
-        if head:
-            node = head = ListNode(None, head)
-            
-            while node.next:
-                while node.next.val == val:
-                    if node.next.next is None: return
-                    node.next = node.next.next
-                node = node.next
-
-            return head.next
+        node = head = ListNode(None, head)
         
-        return None
+        while node and node.next:
+            while node.next.val == val:
+                node.next = node.next.next
+                if node.next is None: break
+            node = node.next
+        
+        return head.next
 
-arr = [2,2,2,2,2]
+arr = [2,1,2]
+target = 2
 
 lst = LinkedList(arr)
 lst.array_to_linked_list()
 lst.head.display()
 
 sol = Solution()
-head = sol.removeElements(lst.head, 2)
+head = sol.removeElements(lst.head, target)
 
-head.display()
+if not head: 
+    print("[]")
+else:
+    head.display()
