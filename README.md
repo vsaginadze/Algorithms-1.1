@@ -51,7 +51,7 @@
   - [x] Remove Linked List Elements
   - [x] Odd Even Linked List
   - [x] Palindrome Linked List
-  - [] Summary - Linked List Classic Problems
+  - [x] Summary - Linked List Classic Problems
 
 * Double Linked List
   - [ ] Introduction
