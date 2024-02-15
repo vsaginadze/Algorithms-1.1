@@ -8,7 +8,7 @@ class DoublyLinkedList:
     def __init__(self, head):
         self.head = head
     
-    def display(self):
+    def display(self) -> None:
         if self.head:
             print(f'None <- ({self.head.val}) -> ', end="")
 
@@ -19,10 +19,23 @@ class DoublyLinkedList:
                 cur_node = cur_node.next
             print("None")
     
-    def addAtHead(self, val):
+    def addAtHead(self, val) -> None:
         node = DoublyListNode(val, self.head)
         self.head.prev = node
         self.head = node
+    
+    def addAtTail(self, val) -> None:
+        node = DoublyListNode(val)
+        if self.head:
+            cur_node = self.head
+            while cur_node.next:
+                cur_node = cur_node.next
+            
+            cur_node.next = node
+            node.prev = cur_node
+        else:
+            self.head = node
+
 
 n3 = DoublyListNode(3)
 n2 = DoublyListNode(2, n3)
@@ -37,4 +50,5 @@ n1.prev = head
 doubly_list = DoublyLinkedList(head)
 
 doubly_list.addAtHead(-1)
+doubly_list.addAtTail(4)
 doubly_list.display()
