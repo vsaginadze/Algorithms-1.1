@@ -37,6 +37,7 @@ class DoublyLinkedList:
             self.head = node
     
     def get(self, index: int) -> int:
+        if not index >= 0: return -1
         idx, current_node = 0, self.head
         
         while current_node:
@@ -46,6 +47,25 @@ class DoublyLinkedList:
             idx += 1
         
         return -1
+
+    def addAtIndex(self, index: int, val: int) -> None:
+        if not index >= 0: return
+
+        idx, cur_node = 1, self.head.next
+        node = DoublyListNode(val)
+        if index:
+            while cur_node:
+                if idx == index:
+                    node.next = cur_node
+                    node.prev = cur_node.prev
+                    cur_node.prev.next = node
+                    cur_node.prev = node
+                idx += 1
+                cur_node = cur_node.next
+        else:
+            self.addAtHead(val)
+
+
 
 
 n3 = DoublyListNode(3)
@@ -62,4 +82,5 @@ doubly_list = DoublyLinkedList(head)
 
 doubly_list.addAtHead(-1)
 doubly_list.addAtTail(4)
+doubly_list.addAtIndex(-1, 99)
 doubly_list.display()
