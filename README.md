@@ -54,7 +54,7 @@
   - [x] Summary - Linked List Classic Problems
 
 * Double Linked List
-  - [ ] Introduction
+  - [x] Introduction
   - [ ] Add Operation
   - [ ] Delete Operation
   - [ ] Design Linked List
