@@ -35,6 +35,17 @@ class DoublyLinkedList:
             node.prev = cur_node
         else:
             self.head = node
+    
+    def get(self, index: int) -> int:
+        idx, current_node = 0, self.head
+        
+        while current_node:
+            if idx == index:
+                return current_node.val
+            current_node = current_node.next
+            idx += 1
+        
+        return -1
 
 
 n3 = DoublyListNode(3)
