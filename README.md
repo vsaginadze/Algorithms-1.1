@@ -55,7 +55,7 @@
 
 * Double Linked List
   - [x] Introduction
-  - [ ] Add Operation
+  - [x] Add Operation
   - [ ] Delete Operation
   - [ ] Design Linked List
 
