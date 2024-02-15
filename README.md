@@ -57,7 +57,7 @@
   - [x] Introduction
   - [x] Add Operation
   - [x] Delete Operation
-  - [ ] Design Linked List
+  - [x] Design Linked List
 
 * Conclusion
   - [ ] Summary - Linked List
