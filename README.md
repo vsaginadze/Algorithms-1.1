@@ -60,7 +60,7 @@
   - [x] Design Linked List
 
 * Conclusion
-  - [ ] Summary - Linked List
+  - [x] Summary - Linked List
   - [ ] Merge Two Sorted Lists
   - [ ] Add Two Numbers
   - [ ] Flatten a Multilevel Doubly Linked List
