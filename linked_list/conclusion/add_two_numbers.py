@@ -25,36 +25,24 @@ class Solution:
             l2 = l2.next
 
         if not l1:
-            if add_one:
-                while add_one and l2:
-                    if l2.val+1 == 10:
-                        current_node.next = ListNode(0)
-                        current_node = current_node.next
-                        l2 = l2.next
-                    else:
-                        current_node.next = ListNode(l2.val+1, l2.next)
-                        add_one = False
-            else:
-                current_node.next = l2
-            
+            node = l2
         elif not l2:
-            if add_one:
-                while l1 and add_one:
-                    if l1.val+1 == 10:
-                        current_node.next = ListNode(0)
-                        current_node = current_node.next
-                        l1 = l1.next
-                    else:
-                        current_node.next = ListNode(l1.val+1, l1.next)
-                        add_one = False
-            else:
-                current_node.next = l1
-            
+            node = l1
 
         if add_one:
-            current_node.next = ListNode(1)
+            while node and add_one:
+                if node.val+1 == 10:
+                    current_node.next = ListNode(0)
+                    current_node = current_node.next
+                    node = node.next
+                else:
+                    current_node.next = ListNode(node.val+1, node.next)
+                    add_one = False
+        else:
+            current_node.next = node
 
-        
+        if add_one: current_node.next = ListNode(1)
+
         return number_head.next
 
 
