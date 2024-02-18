@@ -24,11 +24,7 @@ class Solution:
             l1 = l1.next
             l2 = l2.next
 
-        if not l1:
-            node = l2
-        elif not l2:
-            node = l1
-
+        node = l1 if not l2 else l2
         if add_one:
             while node and add_one:
                 if node.val+1 == 10:
