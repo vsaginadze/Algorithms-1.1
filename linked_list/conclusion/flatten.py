@@ -1,7 +1,6 @@
 class Solution:
     def flatten(self, head):
-        if head is None:
-            return
+        if head is None: return
         if head.child:
             next_node = head.next
             child_head = self.flatten(head.child)
