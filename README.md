@@ -74,25 +74,25 @@
 
 * Comparison Based Sorts
   - [ ] Comparison Based Sort
-  - [ ] Selection Sort
-  - [ ] Sort Colors
+  - [ ] Selection Sort 
+  - [ ] Sort Colors (M)
   - [ ] Bubble Sort
-  - [ ] Height Checker
+  - [ ] Height Checker (E)
   - [ ] Insertion Sort
-  - [ ] Insertion Sort List
+  - [ ] Insertion Sort List (M)
   - [ ] Heap Sort
-  - [ ] Sort an Array
-  - [ ] Kth Largest Element in an Array
+  - [ ] Sort an Array (M)
+  - [ ] Kth Largest Element in an Array (M)
 
 * Non-comparison Based Sorts
   - [ ] Counting Sort
-  - [ ] Sort Colors
-  - [ ] Minimum Absolute Difference
+  - [ ] Sort Colors (M)
+  - [ ] Minimum Absolute Difference (E)
   - [ ] Radix Sort
-  - [ ] Query Kth Smallest Trimmed Number
-  - [ ] Maximum Gap
-  - [ ] Bucket Sort
-  - [ ] Top K Frequent Elements
+  - [ ] Query Kth Smallest Trimmed Number (M)
+  - [ ] Maximum Gap (M)
+  - [ ] Bucket Sort 
+  - [ ] Top K Frequent Elements (M)
 
 * Summary and Conclusion
   - [ ] Sorting Algorithm Summary
@@ -101,22 +101,22 @@
 
 * Traverse A Tree
   - [ ] Traverse a Tree - Introduction
-  - [ ] Binary Tree Preorder Traversal
-  - [ ] Binary Tree Inorder Traversal
-  - [ ] Binary Tree Postorder Traversal
+  - [ ] Binary Tree Preorder Traversal (E)
+  - [ ] Binary Tree Inorder Traversal (E)
+  - [ ] Binary Tree Postorder Traversal (E)
   - [ ] Level-order Traversal - Introduction
-  - [ ] Binary Tree Level Order Traversal
+  - [ ] Binary Tree Level Order Traversal (M)
 
 * Solve Problems Recursively
   - [ ] Solve Tree Problems Recursively
-  - [ ] Maximum Depth of Binary Tree
-  - [ ] Symmetric Tree
-  - [ ] Path Sum
+  - [ ] Maximum Depth of Binary Tree (E)
+  - [ ] Symmetric Tree (E)
+  - [ ] Path Sum (E)
 
 * Conclusion
-  - [ ] Construct Binary Tree from Inorder and Postorder Traversal
-  - [ ] Construct Binary Tree from Preorder and Inorder Traversal
-  - [ ] Populating Next Right Pointers in Each Node
+  - [ ] Construct Binary Tree from Inorder and Postorder Traversal (M)
+  - [ ] Construct Binary Tree from Preorder and Inorder Traversal (M)
+  - [ ] Populating Next Right Pointers in Each Node 
   - [ ] Populating Next Right Pointers in Each Node II
   - [ ] Lowest Common Ancestor of a Binary Tree
   - [ ] Serialize and Deserialize Binary Tree
