@@ -4,15 +4,15 @@ class Solution:
             return
         if head.child:
             next_node = head.next
-            childHead = self.flatten(head.child)
+            child_head = self.flatten(head.child)
             
-            head.next = childHead
-            childHead.prev = head
-            while childHead.next:
-                childHead = childHead.next
-            childHead.next = next_node
+            head.next = child_head
+            child_head.prev = head
+            while child_head.next:
+                child_head = child_head.next
+            child_head.next = next_node
             if next_node:
-                next_node.prev = childHead
+                next_node.prev = child_head
 
             head.child = None
             return head
