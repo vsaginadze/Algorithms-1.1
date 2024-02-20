@@ -36,15 +36,14 @@ class Solution:
         return even_head.next  # Return the head of even nodes
     
     def copyRandomList(self, head: 'Optional[Node]') -> 'Optional[Node]':
-        xead = head
-        node = xead
+        node = head
 
         while node:
             next = node.next
-            node.next = Node(node.val, node.next)
+            node.next = Node(node.val+1, node.next)
             node = next
 
-        node = xead
+        node = head
         while node:
             if node.random:
                 node.next.random = node.random.next
@@ -52,7 +51,7 @@ class Solution:
             node = node.next.next
 
         
-        return self.pluck_even_nodes(xead)
+        return self.pluck_even_nodes(head)
 
 n4 = Node(1)
 n3 = Node(10, n4)
