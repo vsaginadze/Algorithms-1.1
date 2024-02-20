@@ -64,7 +64,7 @@
   - [x] Merge Two Sorted Lists
   - [x] Add Two Numbers
   - [x] Flatten a Multilevel Doubly Linked List
-  - [ ] Copy List with Random Pointer
+  - [x] Copy List with Random Pointer
   - [ ] Rotate List
 
 ### Sorting
