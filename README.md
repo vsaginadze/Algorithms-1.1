@@ -65,7 +65,7 @@
   - [x] Add Two Numbers
   - [x] Flatten a Multilevel Doubly Linked List
   - [x] Copy List with Random Pointer
-  - [ ] Rotate List
+  - [x] Rotate List
 
 ### Sorting
 
