@@ -70,7 +70,7 @@
 ### Sorting
 
 * Introduction to Sorting
-  - [ ] Fundamentals of Sorting
+  - [x] Fundamentals of Sorting
 
 * Comparison Based Sorts
   - [ ] Comparison Based Sort
