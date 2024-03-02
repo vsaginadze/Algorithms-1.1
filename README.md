@@ -73,7 +73,7 @@
   - [x] Fundamentals of Sorting
 
 * Comparison Based Sorts
-  - [ ] Comparison Based Sort
+  - [x] Comparison Based Sort
   - [ ] Selection Sort 
   - [ ] Sort Colors (M)
   - [ ] Bubble Sort
