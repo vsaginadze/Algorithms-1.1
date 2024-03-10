@@ -75,7 +75,7 @@
 * Comparison Based Sorts
   - [x] Comparison Based Sort
   - [x] Selection Sort 
-  - [ ] Sort Colors (M)
+  - [x] Sort Colors (M)
   - [ ] Bubble Sort
   - [ ] Height Checker (E)
   - [ ] Insertion Sort
