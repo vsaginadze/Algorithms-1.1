@@ -78,7 +78,7 @@
   - [x] Sort Colors (M)
   - [x] Bubble Sort
   - [x] Height Checker (E)
-  - [ ] Insertion Sort
+  - [x] Insertion Sort
   - [ ] Insertion Sort List (M)
   - [ ] Heap Sort
   - [ ] Sort an Array (M)
