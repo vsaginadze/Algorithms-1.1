@@ -79,7 +79,7 @@
   - [x] Bubble Sort
   - [x] Height Checker (E)
   - [x] Insertion Sort
-  - [ ] Insertion Sort List (M)
+  - [x] Insertion Sort List (M)
   - [ ] Heap Sort
   - [ ] Sort an Array (M)
   - [ ] Kth Largest Element in an Array (M)
