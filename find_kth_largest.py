@@ -2,7 +2,8 @@ from typing import List
 
 class Solution:
     def findKthLargest(self, lst: List[int], k: int) -> int:
-        for i in range(k+1):
+        if len(lst) == 1 and k == 1: return lst[0]
+        for i in range(k):
             max_index = i
             for j in range(i + 1, len(lst)):
                 # Update minimum index
