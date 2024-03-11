@@ -80,8 +80,8 @@
   - [x] Height Checker (E)
   - [x] Insertion Sort
   - [x] Insertion Sort List (M)
-  - [ ] Heap Sort
-  - [ ] Sort an Array (M)
+  - [x] Heap Sort
+  - [x] Sort an Array (M)
   - [ ] Kth Largest Element in an Array (M)
 
 * Non-comparison Based Sorts
