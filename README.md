@@ -82,7 +82,7 @@
   - [x] Insertion Sort List (M)
   - [x] Heap Sort
   - [x] Sort an Array (M)
-  - [ ] Kth Largest Element in an Array (M)
+  - [x] Kth Largest Element in an Array (M)
 
 * Non-comparison Based Sorts
   - [ ] Counting Sort
