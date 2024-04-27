@@ -85,7 +85,7 @@
   - [x] Kth Largest Element in an Array (M)
 
 * Non-comparison Based Sorts
-  - [ ] Counting Sort
+  - [x] Counting Sort
   - [ ] Sort Colors (M)
   - [ ] Minimum Absolute Difference (E)
   - [ ] Radix Sort
