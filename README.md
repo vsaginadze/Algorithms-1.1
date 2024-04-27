@@ -86,7 +86,7 @@
 
 * Non-comparison Based Sorts
   - [x] Counting Sort
-  - [ ] Sort Colors (M)
+  - [x] Sort Colors (M)
   - [ ] Minimum Absolute Difference (E)
   - [ ] Radix Sort
   - [ ] Query Kth Smallest Trimmed Number (M)
