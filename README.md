@@ -88,7 +88,7 @@
   - [x] Counting Sort
   - [x] Sort Colors (M)
   - [x] Minimum Absolute Difference (E)
-  - [ ] Radix Sort
+  - [x] Radix Sort
   - [ ] Query Kth Smallest Trimmed Number (M)
   - [ ] Maximum Gap (M)
   - [ ] Bucket Sort 
