@@ -91,7 +91,7 @@
   - [x] Radix Sort
   - [ ] Query Kth Smallest Trimmed Number (M)
   - [x] Maximum Gap (M)
-  - [ ] Bucket Sort 
+  - [x] Bucket Sort 
   - [ ] Top K Frequent Elements (M)
 
 * Summary and Conclusion
