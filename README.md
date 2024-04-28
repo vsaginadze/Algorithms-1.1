@@ -90,7 +90,7 @@
   - [x] Minimum Absolute Difference (E)
   - [x] Radix Sort
   - [ ] Query Kth Smallest Trimmed Number (M)
-  - [ ] Maximum Gap (M)
+  - [x] Maximum Gap (M)
   - [ ] Bucket Sort 
   - [ ] Top K Frequent Elements (M)
 
