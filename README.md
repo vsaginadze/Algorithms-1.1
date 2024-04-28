@@ -92,7 +92,7 @@
   - [ ] Query Kth Smallest Trimmed Number (M)
   - [x] Maximum Gap (M)
   - [x] Bucket Sort 
-  - [ ] Top K Frequent Elements (M)
+  - [x] Top K Frequent Elements (M)
 
 * Summary and Conclusion
   - [ ] Sorting Algorithm Summary
