@@ -95,7 +95,7 @@
   - [x] Top K Frequent Elements (M)
 
 * Summary and Conclusion
-  - [ ] Sorting Algorithm Summary
+  - [x] Sorting Algorithm Summary
 
 ### Binary Tree
 
