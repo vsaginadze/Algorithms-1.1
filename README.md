@@ -89,7 +89,7 @@
   - [x] Sort Colors (M)
   - [x] Minimum Absolute Difference (E)
   - [x] Radix Sort
-  - [ ] Query Kth Smallest Trimmed Number (M)
+  - [x] Query Kth Smallest Trimmed Number (M)
   - [x] Maximum Gap (M)
   - [x] Bucket Sort 
   - [x] Top K Frequent Elements (M)
