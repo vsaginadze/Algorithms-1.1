@@ -105,7 +105,7 @@
   - [x] Binary Tree Inorder Traversal (E)
   - [x] Binary Tree Postorder Traversal (E)
   - [x] Level-order Traversal - Introduction
-  - [ ] Binary Tree Level Order Traversal (M)
+  - [x] Binary Tree Level Order Traversal (M)
 
 * Solve Problems Recursively
   - [ ] Solve Tree Problems Recursively
