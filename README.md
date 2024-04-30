@@ -108,7 +108,7 @@
   - [x] Binary Tree Level Order Traversal (M)
 
 * Solve Problems Recursively
-  - [ ] Solve Tree Problems Recursively
+  - [x] Solve Tree Problems Recursively
   - [ ] Maximum Depth of Binary Tree (E)
   - [ ] Symmetric Tree (E)
   - [ ] Path Sum (E)
