@@ -100,7 +100,7 @@
 ### Binary Tree
 
 * Traverse A Tree
-  - [ ] Traverse a Tree - Introduction
+  - [x] Traverse a Tree - Introduction
   - [ ] Binary Tree Preorder Traversal (E)
   - [ ] Binary Tree Inorder Traversal (E)
   - [ ] Binary Tree Postorder Traversal (E)
