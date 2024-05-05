@@ -111,7 +111,7 @@
   - [x] Solve Tree Problems Recursively
   - [x] Maximum Depth of Binary Tree (E)
   - [x] Symmetric Tree (E)
-  - [ ] Path Sum (E)
+  - [x] Path Sum (E)
 
 * Conclusion
   - [ ] Construct Binary Tree from Inorder and Postorder Traversal (M)
