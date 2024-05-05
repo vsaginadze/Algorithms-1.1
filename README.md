@@ -110,7 +110,7 @@
 * Solve Problems Recursively
   - [x] Solve Tree Problems Recursively
   - [x] Maximum Depth of Binary Tree (E)
-  - [ ] Symmetric Tree (E)
+  - [x] Symmetric Tree (E)
   - [ ] Path Sum (E)
 
 * Conclusion
