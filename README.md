@@ -116,7 +116,7 @@
 * Conclusion
   - [x] Construct Binary Tree from Inorder and Postorder Traversal (M)
   - [x] Construct Binary Tree from Preorder and Inorder Traversal (M)
-  - [ ] Populating Next Right Pointers in Each Node 
+  - [x] Populating Next Right Pointers in Each Node 
   - [ ] Populating Next Right Pointers in Each Node II
   - [ ] Lowest Common Ancestor of a Binary Tree
   - [ ] Serialize and Deserialize Binary Tree
