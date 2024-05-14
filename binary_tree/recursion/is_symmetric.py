@@ -12,3 +12,4 @@ class Solution:
         if not root: return True
 
         return self.compare_subtrees(root.left, root.right)
+
